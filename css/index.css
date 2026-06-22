@@ -1,0 +1,7 @@
+
+.header_bar{
+    display: flex;
+    position:fixed;
+    font-size: large;
+    gap: 20px;
+}
