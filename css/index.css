@@ -1,5 +1,11 @@
 
-.header_bar{
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    gap: 40px;
+}
+.spilt{
     display: flex;
     position:fixed;
     font-size: large;
