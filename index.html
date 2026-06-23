@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja
-">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <title>トップページ</title>
@@ -17,8 +16,12 @@
     </div>
 <!-- ※ヘッダー終了 -->
     <div class="main_bisual">
-      <p>たまねぎの紹介</p>
-      <img src="images/main_busial.png" alt="たまねぎの画像">
+      <div>
+        <p>たまねぎの紹介</p>
+      </div> 
+      <div> 
+        <img id="description_tamanegi" src="images/thin_tamanegi.png" alt="たまねぎの画像">
+      </div>
     </div>
 <!-- メインビジュアル終了 -->
     <div class="spilt">
@@ -46,22 +49,32 @@
           <p>嬉しい</p>
         </div>
         <div class="article">
-          <h4>はじめて会った日</h4>
+          <p class="title"><a href=""></a>記事6</p>
           <p>嬉しい</p>
         </div>
         <div class="article">
-          <h4>はじめて会った日</h4>
+          <p class="title"><a href=""></a>ここにページ移動</p>
           <p>嬉しい</p>
         </div>
+<!-- 記事7ににページ移動 -->
+        
       </div>
 <!-- ※左画面終了 -->
       <div class="side_bar">
-        <div class="profile">
-          <p>INIAD</p>
+        <div class="small_side_contents" id="profile">
+          <p>プロフィールをここに書く</p>
         </div>
-        <div class="category">
-          <p>お出かけ</p>
-          <p>仲間だ</p>
+        <div class="small_side_contents" id="category">
+          <p>カテゴリー別をここに書く</p>
+        </div>
+        <div class="small_side_contents" id="famous_article">
+          <p>人気記事をここに</p>
+        </div>
+        <div class="big_side_contents" id="month_archive">
+          <p>月間アーカイブをここに</p>
+        </div>
+        <div class="big_side_contents" id="calendar">
+          <p>カレンダーをここに</p>
 
         </div>
 
@@ -69,5 +82,16 @@
 
 
     </div>
+    <div class="footer">
+          <div class="footer_contents">
+            <p>ブログ名</p>
+          </div> 
+          <div class="footer_contents">
+            <p>プライバシー</p>
+          </div>   
+          <div class="footer_contents">
+            <p>お問い合わせ</p>
+          </div>
+        </div>
 </body>
 </html>
