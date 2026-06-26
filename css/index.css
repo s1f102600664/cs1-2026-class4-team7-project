@@ -42,6 +42,12 @@
     border: 1px solid #333333;
     color: #333333 ;
  }
+
+#article_picture{
+    width: 100px;
+    height: 150px;
+}
+
  .side_bar{
     width: 350px;
     height: 2000px;
