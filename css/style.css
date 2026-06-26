@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    position: sticky;
+    top: 0px;
+    justify-content: center;
+    font-size: large;
+    gap: 40px;
+    background-color: aqua;
+}
