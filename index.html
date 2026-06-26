@@ -2,18 +2,103 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>トップページ※仮</title>
-    <link rel = "stylesheet" href = "css/style.css">
+    <title>トップページ</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="javaScript/index.js"></script>
 </head>
 <body>
     <div class="header">
-        <p><a href="article.html">記事を見る・カレンダーから記事を見る</a></p>
-        <p><a href=""></a>お問い合わせ</p> 
+        <div class="link">
+          <p><a href="index.html">ホーム</a></p>
+        </div>
+        <div class="link">
+          <p><a href="form.html">お問い合わせ</a></p>
+        </div>
     </div>
-    <div class="main_visual">
-        <!-- ここにメインビジュアル -->
+<!-- ※ヘッダー終了 -->
+    <div class="main_bisual">
+      <div>
+        <p>たまねぎの紹介</p>
+      </div> 
+      <div> 
+        <img id="description_tamanegi" src="images/thin_tamanegi.png" alt="たまねぎの画像">
+        <p><a href="">たまねぎのことをもっと詳しく</a></p>
+      </div>
     </div>
-    <div class="new_article"> </div>
-    
+<!-- メインビジュアル終了 -->
+    <div class="spilt">
+
+      <div class="row_article">
+        <h3>最新記事</h3>
+        <div class="article">
+          <p class="title"><a id="article_link1" href="article1.html">記事1</a></p>
+          <img id="article_picture" src="images/20260527_tamanegi_1.jpg" alt="記事1の画像">
+          <p>1</p>
+        </div>
+        <div class="article">
+          <p class="title"><a id="article_link2" href="article2.html"></a>記事2</p>
+          <img id="article_picture" src="images/20260528_tamanegi_1.jpg" alt="記事2の画像">
+          <p>2</p>
+        </div>
+        <div class="article">
+          <p class="title"><a id="article_link3" href="article3.html"></a>記事3</p>
+          <p>3</p>
+        </div>
+        <div class="article">
+          <p class="title"><a href=""></a>記事4</p>
+          <p>4</p>
+        </div>
+        <div class="article">
+          <p class="title"><a href=""></a>記事5</p>
+          <p>5</p>
+        </div>
+        <div class="article">
+          <p class="title"><a href=""></a>記事6</p>
+          <p>6</p>
+        </div>
+        <div class="article">
+          <p class="title"><a href=""></a>記事7</p>
+          <p>7</p>
+        </div>
+        <div>
+          <p><button onclick="pagination1()">1</button></p>
+          <p><button onclick="pagination2()">2</button></p>
+        </div>
+        
+      </div>
+<!-- ※左画面終了 -->
+      <div class="side_bar">
+        <div class="small_side_contents" id="profile">
+          <p>プロフィールをここに書く</p>
+        </div>
+        <div class="small_side_contents" id="category">
+          <p>カテゴリー別をここに書く</p>
+        </div>
+        <div class="small_side_contents" id="famous_article">
+          <p>人気記事をここに</p>
+        </div>
+        <div class="big_side_contents" id="month_archive">
+          <p>月間アーカイブをここに</p>
+        </div>
+        <div class="big_side_contents" id="calendar">
+          <p>カレンダーをここに</p>
+
+        </div>
+
+      </div>
+
+
+    </div>
+    <div class="footer">
+          <div class="footer_contents">
+            <p>ブログ名</p>
+          </div> 
+          <div class="footer_contents">
+            <p>プライバシー</p>
+          </div>   
+          <div class="footer_contents">
+            <p>お問い合わせ</p>
+          </div>
+        </div>
 </body>
 </html>
