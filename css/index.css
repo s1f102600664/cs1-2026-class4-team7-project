@@ -1,3 +1,6 @@
+body{
+    background-color: #EAE7DC;
+}
 
 .header{
     display: flex;
@@ -6,7 +9,7 @@
     justify-content: center;
     font-size: large;
     gap: 40px;
-    background-color: aqua;
+    background-color: #7E6A24;;
 }
 
 .main_bisual{
@@ -29,7 +32,7 @@
     padding-left: 40px;
     width:750px;
     height:2250px;
-    border: 1px solid blue;
+    border: 1px solid #787D24;
 
 
 }
@@ -51,7 +54,8 @@
  .side_bar{
     width: 350px;
     height: 2000px;
-    border: 1px solid red;
+    border: 1px solid #7E4424;
+    
  }
 
  .small_side_contents{
