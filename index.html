@@ -33,7 +33,7 @@
 
       <div class="row_article">
         <h3>最新記事</h3>
-        <div class="article">
+        <div class="article" id="show_article">
           <p class="title"><a id="article_link1" href="article1.html">記事1</a></p>
           <img class="picture" id="article_picture1" src="images/20260527_tamanegi_1.jpg" alt="記事1の画像">
           <p id="brief1">1</p>
@@ -63,8 +63,10 @@
           <p class="title"><a id="article_link7" href="article7.html">記事7</a></p>
           <p>7</p>
         </div>
-        <div>
-          <button onclick="pagination1()">1</button>
+        <div id="change_button1" >
+          <button  onclick="pagination1()">1</button>
+        </div>
+        <div id="change_button2">
           <button onclick="pagination2()">2</button>
         </div>
         
