@@ -1,12 +1,10 @@
-function pagination1() {
-    let element = document.getElementById('article_link1');
-    element.innerHTML = '<a id="article_link1" href="article1.html">記事1</a></p>';
-}
+// function pagination1() {
+   
+// }
 
 function pagination2() {
-    let element = document.getElementById('article_link1');
-    element.innerHTML = '<a id="article_link1" href="article8.html">記事8</a></p>';
-    // document.getElementById('article_1').src = 'images/20260528_tamanegi_1.jpg';
-
-
+    document.getElementById("article_picture1").src = "images/20260606_tamanegi_5.jpg";
+    document.getElementById("article_link1").innerHTML = "記事8";
+    document.getElementById("article_link1").href = "article8.html"
+    document.getElementById("brief1").innerHTML = "8"
 }

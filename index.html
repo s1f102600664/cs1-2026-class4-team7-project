@@ -4,35 +4,39 @@
     <meta charset="UTF-8">
     <title>トップページ※仮</title>
     <link rel = "stylesheet" href = "css/index.css">
+    <script src="javaScript/index.js"></script>
 </head>
 <body>
     <div class="header">
-        <div class="link">
-          <p><a href="index.html">ホーム</a></p>
+        <div>
+          <p id="logo_name">たまねぎブログ</p>
+        </div>
+        <div class="link"> 
+          <p><a id="jump" href="index.html">ホーム</a></p>
         </div>
         <div class="link">
-          <p><a href="form.html">お問い合わせ</a></p>
+          <p><a id="jump" href="form.html">お問い合わせ</a></p>
         </div>
     </div>
 <!-- ※ヘッダー終了 -->
     <div class="main_bisual">
-      <div>
-        <p>たまねぎの紹介</p>
-      </div> 
       <div> 
         <img id="description_tamanegi" src="images/thin_tamanegi.png" alt="たまねぎの画像">
         <p><a href="">たまねぎのことをもっと詳しく</a></p>
       </div>
+      <div>
+        <p>たまねぎの紹介</p>
+      </div> 
     </div>
 <!-- メインビジュアル終了 -->
     <div class="spilt">
 
       <div class="row_article">
         <h3>最新記事</h3>
-        <div class="article">
+        <div class="article" id="show_article">
           <p class="title"><a id="article_link1" href="article1.html">記事1</a></p>
           <img class="picture" id="article_picture1" src="images/20260527_tamanegi_1.jpg" alt="記事1の画像">
-          <p>1</p>
+          <p id="brief1">1</p>
         </div>
         <div class="article">
           <p class="title"><a id="article_link2" href="article2.html">記事2</a></p>
@@ -59,9 +63,11 @@
           <p class="title"><a id="article_link7" href="article7.html">記事7</a></p>
           <p>7</p>
         </div>
-        <div>
-          <p><button onclick="pagination1()">1</button></p>
-          <p><button onclick="pagination2()">2</button></p>
+        <div id="change_button1" >
+          <button  onclick="pagination1()">1</button>
+        </div>
+        <div id="change_button2">
+          <button onclick="pagination2()">2</button>
         </div>
         
       </div>
