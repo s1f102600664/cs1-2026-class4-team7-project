@@ -1,3 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f7f7f5; /* 全体の背景色 */
+  font-family: sans-serif;
+  color: #333;
+}
+
+/* 全体を包むコンテナ（フッターを最下部に固定するため） */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .header{
     display: flex;
     position: sticky;
@@ -6,4 +24,80 @@
     font-size: large;
     gap: 40px;
     background-color: aqua;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* 左右に振り分け */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto auto; /* 下部マージンを自動にしてフッターを押し下げる */
+  padding: 0 10px;
+  gap: 20px; /* メインとサイドバーの間の余白 */
+}
+
+/* 左側：メインコンテンツ（幅70%程度） */
+.main-content {
+  flex: 1; /* 残りの幅を埋める、または width: 70%; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* 各セクション間の余白 */
+}
+
+/* 各パーツの共通スタイル */
+.post, .author, .related-posts, .comments, .widget {
+  background: #fff;
+  border: 1px solid #333;
+  padding: 20px;
+}
+
+/* 記事内の画像と本文の枠 */
+.post-img {
+  border: 1px solid #333;
+  margin: 20px auto;
+  width: 90%;
+  height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-body {
+  border: 1px solid #333;
+  min-height: 300px;
+  padding: 20px;
+}
+
+/* 関連記事の横並び（Flexbox） */
+.related-posts .grid {
+  display: flex;
+  gap: 15px;
+}
+.related-card {
+  flex: 1;
+  border: 1px solid #333;
+  padding: 15px;
+  text-align: center;
+}
+
+/* 右側：サイドバー（幅30%弱に固定） */
+.sidebar {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/* カレンダーだけ背景グレー */
+.widget.calendar {
+  background-color: #e6e6e6;
+}
+
+/* フッター */
+.footer {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto 0;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
 }
