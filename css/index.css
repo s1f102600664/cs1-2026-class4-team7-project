@@ -28,12 +28,12 @@ body{
 }
 
 
-a:link#jump{
+a:link.jump{
     color: #787D24;
     text-decoration: underline;    
 }
 
-a:visited#jump{
+a:visited.jump{
     color: #7E4424;
     text-decoration: underline;    
 }
