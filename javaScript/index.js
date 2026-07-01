@@ -47,6 +47,6 @@ let s = document.getElementById("change_button2");
 s.addEventListener("click", () => {e.classList.replace("row_article", "article_jump");}); 
 // s(2のbutton)がクリックされるとeのクラス名をrow_articleからarticle_jumpに変更
 
-// e.addEventListener("animationend", () => {e.classList.replace("article_jump", "row_article");}); 
-// e.addEventListener("animationcancel", () => {e.classList.replace("article_jump", "row_article");}); 
-// ↑上2つはアニメーションが終わったらもしくはキャンセルでもとのクラスrow_articleに戻る(今回はアニメーションがまた再生されるので今のところ使わない)
+e.addEventListener("animationend", () => {e.classList.replace("article_jump", "row_article");}); 
+e.addEventListener("animationcancel", () => {e.classList.replace("article_jump", "row_article");}); 
+// ↑上2つはアニメーションが終わったらもしくはキャンセルでもとのクラスrow_articleに戻る
