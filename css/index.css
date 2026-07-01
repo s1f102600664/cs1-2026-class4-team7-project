@@ -29,72 +29,72 @@ body{
 
 
 a:link.jump{
-    color: #787D24;
-    text-decoration: underline;    
-}
-
-a:visited.jump{
     color: #7E4424;
     text-decoration: underline;    
 }
 
-a:link#article_link1{
+a:visited.jump{
     color: #787D24;
     text-decoration: underline;    
 }
 
+a:link#article_link1{
+    color: #7E4424;
+    text-decoration: underline;    
+}
+
 a:link#article_link2{
-    color: #787D24;
+    color: #7E4424;
     text-decoration: underline;    
 }
 a:link#article_link3{
-    color: #787D24;
+    color: #7E4424;
     text-decoration: underline;    
 }
 a:link#article_link4{
-    color: #787D24;
+    color: #7E4424;
     text-decoration: underline;    
 }
 a:link#article_link5{
-    color: #787D24;
+    color: #7E4424;
     text-decoration: underline;    
 }
 a:link#article_link6{
-    color: #787D24;
+    color: #7E4424;
     text-decoration: underline;    
 }
 a:link#article_link7{
-    color: #787D24;
+    color: #7E4424;
     text-decoration: underline;    
 }
 
 
 a:visited#article_link1{
-    color: #7E4424;
+    color: #787D24;
     text-decoration: underline;    
 }
 a:visited#article_link2{
-    color: #7E4424;
+    color: #787D24;
     text-decoration: underline;    
 }
 a:visited#article_link3{
-    color: #7E4424;
+    color: #787D24;
     text-decoration: underline;    
 }
 a:visited#article_link4{
-    color: #7E4424;
+    color: #787D24;
     text-decoration: underline;    
 }
 a:visited#article_link5{
-    color: #7E4424;
+    color: #787D24;
     text-decoration: underline;    
 }
 a:visited#article_link6{
-    color: #7E4424;
+    color: #787D24;
     text-decoration: underline;    
 }
 a:visited#article_link7{
-    color: #7E4424;
+    color: #787D24;
     text-decoration: underline;    
 }
 
