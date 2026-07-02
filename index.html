@@ -2,9 +2,8 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>トップページ※仮</title>
+    <title>トップページ</title>
     <link rel = "stylesheet" href = "css/index.css">
-    <script src="javaScript/index.js"></script>
 </head>
 <body>
     <div class="header">
@@ -12,16 +11,16 @@
           <p id="logo_name">たまねぎブログ</p>
         </div>
         <div class="link"> 
-          <p><a id="jump" href="index.html">ホーム</a></p>
+          <p><a class="jump" href="index.html">ホーム</a></p>
         </div>
         <div class="link">
-          <p><a id="jump" href="form.html">お問い合わせ</a></p>
+          <p><a class="jump" href="form.html">お問い合わせ</a></p>
         </div>
     </div>
 <!-- ※ヘッダー終了 -->
     <div class="main_bisual">
       <div> 
-        <img id="description_tamanegi" src="images/thin_tamanegi.png" alt="たまねぎの画像">
+        <img id="description_tamanegi" src="images/tamanegi.png" alt="たまねぎの画像">
         <p><a href="">たまねぎのことをもっと詳しく</a></p>
       </div>
       <div>
@@ -41,27 +40,32 @@
         <div class="article">
           <p class="title"><a id="article_link2" href="article2.html">記事2</a></p>
           <img class="picture" id="article_picture2" src="images/20260528_tamanegi_1.jpg" alt="記事2の画像">
-          <p>2</p>
+          <p id="brief2">2</p>
         </div>
         <div class="article">
           <p class="title"><a id="article_link3" href="article3.html">記事3</a></p>
-          <p>3</p>
+          <img class="picture" id="article_picture3" src="" alt="">
+          <p id="brief3">3</p>
         </div>
         <div class="article">
           <p class="title"><a id="article_link4" href="article4.html">記事4</a></p>
-          <p>4</p>
+          <img class="picture" id="article_picture4" src="" alt="">
+          <p id="brief4">4</p>
         </div>
         <div class="article">
           <p class="title"><a id="article_link5" href="article5.html">記事5</a></p>
-          <p>5</p>
+          <img class="picture" id="article_picture5" src="" alt="">
+          <p id="brief5">5</p>
         </div>
         <div class="article">
           <p class="title"><a id="article_link6" href="article6.html">記事6</a></p>
-          <p>6</p>
+          <img class="picture" id="article_picture6" src="" alt="">
+          <p id="brief6">6</p>
         </div>
         <div class="article">
           <p class="title"><a id="article_link7" href="article7.html">記事7</a></p>
-          <p>7</p>
+          <img class="picture" id="article_picture7" src="" alt="">
+          <p id="brief7">7</p>
         </div>
         <div id="change_button1" >
           <button  onclick="pagination1()">1</button>
@@ -103,7 +107,11 @@
           </div>   
           <div class="footer_contents">
             <p>お問い合わせ</p>
+          </div>
+          <div class="footer_contents">
+            <p>※当ブログは個人ブログです。</p>
+          </div>
     </div>
-        </div>
+    <script src="javaScript/index.js"></script>    
 </body>
 </html>
